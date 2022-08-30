@@ -1,6 +1,5 @@
 package com.gd.restfulbooker;
 
-import com.gd.restfulboker.BaseTest;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import org.testng.Assert;

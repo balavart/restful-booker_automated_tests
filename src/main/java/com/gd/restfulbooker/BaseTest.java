@@ -1,4 +1,4 @@
-package com.gd.restfulboker;
+package com.gd.restfulbooker;
 
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
@@ -40,11 +40,10 @@ public class BaseTest {
         body.put("additionalneeds", "Baby Bush");
 
         // Get response
-        Response response = RestAssured.
+        return RestAssured.
                 given(specification).
                 contentType(ContentType.JSON).
                 body(body.toString()).
                 post("/booking");
-        return response;
     }
 }

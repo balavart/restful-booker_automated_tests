@@ -1,9 +1,5 @@
 package com.gd.restfulbooker;
 
-import com.gd.restfulboker.BaseTest;
-import com.gd.restfulboker.Booking;
-import com.gd.restfulboker.BookingDates;
-import com.gd.restfulboker.BookingId;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

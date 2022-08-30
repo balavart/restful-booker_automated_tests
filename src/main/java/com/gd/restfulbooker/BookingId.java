@@ -1,4 +1,4 @@
-package com.gd.restfulboker;
+package com.gd.restfulbooker;
 
 /**
  * .
